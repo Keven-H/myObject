@@ -50,7 +50,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TableViewCell"];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row + 1];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row + 100];
     
     return cell;
 }

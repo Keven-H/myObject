@@ -15,11 +15,11 @@
 		04533D971CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533D961CBCCF2A0083D372 /* JElasticPullToRefreshDemoTests.m */; };
 		04533DA21CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DA11CBCCF2A0083D372 /* JElasticPullToRefreshDemoUITests.m */; };
 		04533DB11CBCCF5A0083D372 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB01CBCCF5A0083D372 /* TableViewController.m */; };
-		04533DBE1CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */; };
-		04533DBF1CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */; };
-		04533DC01CBCCFE90083D372 /* JElasticPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */; };
-		04533DC11CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */; };
-		04533DC21CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */; };
+		84A526B51F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A526AC1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.m */; };
+		84A526B61F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A526AE1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.m */; };
+		84A526B71F4D2AB0001D8EAE /* JElasticPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A526B01F4D2AB0001D8EAE /* JElasticPullToRefreshView.m */; };
+		84A526B81F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A526B21F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.m */; };
+		84A526B91F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A526B41F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,17 +56,17 @@
 		04533DA31CBCCF2A0083D372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04533DAF1CBCCF5A0083D372 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		04533DB01CBCCF5A0083D372 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		04533DB31CBCCFE90083D372 /* JElasticPullToRefreshConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshConstants.h; sourceTree = "<group>"; };
-		04533DB41CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingView.h; sourceTree = "<group>"; };
-		04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingView.m; sourceTree = "<group>"; };
-		04533DB61CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingViewCircle.h; sourceTree = "<group>"; };
-		04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingViewCircle.m; sourceTree = "<group>"; };
-		04533DB81CBCCFE90083D372 /* JElasticPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshView.h; sourceTree = "<group>"; };
-		04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshView.m; sourceTree = "<group>"; };
-		04533DBA1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
-		04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
-		04533DBC1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
-		04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
+		84A526AA1F4D2AB0001D8EAE /* JElasticPullToRefreshConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshConstants.h; sourceTree = "<group>"; };
+		84A526AB1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingView.h; sourceTree = "<group>"; };
+		84A526AC1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingView.m; sourceTree = "<group>"; };
+		84A526AD1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshLoadingViewCircle.h; sourceTree = "<group>"; };
+		84A526AE1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshLoadingViewCircle.m; sourceTree = "<group>"; };
+		84A526AF1F4D2AB0001D8EAE /* JElasticPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JElasticPullToRefreshView.h; sourceTree = "<group>"; };
+		84A526B01F4D2AB0001D8EAE /* JElasticPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JElasticPullToRefreshView.m; sourceTree = "<group>"; };
+		84A526B11F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
+		84A526B21F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
+		84A526B31F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JElasticPullToRefresh.h"; sourceTree = "<group>"; };
+		84A526B41F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JElasticPullToRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		04533D7B1CBCCF2A0083D372 /* JElasticPullToRefreshDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04533DB21CBCCFE90083D372 /* JElasticPullToRefresh */,
+				84A526A91F4D2AB0001D8EAE /* JElasticPullToRefresh */,
 				04533D7F1CBCCF2A0083D372 /* AppDelegate.h */,
 				04533D801CBCCF2A0083D372 /* AppDelegate.m */,
 				04533DAF1CBCCF5A0083D372 /* TableViewController.h */,
@@ -157,23 +157,22 @@
 			path = JElasticPullToRefreshDemoUITests;
 			sourceTree = "<group>";
 		};
-		04533DB21CBCCFE90083D372 /* JElasticPullToRefresh */ = {
+		84A526A91F4D2AB0001D8EAE /* JElasticPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				04533DB31CBCCFE90083D372 /* JElasticPullToRefreshConstants.h */,
-				04533DB41CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.h */,
-				04533DB51CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m */,
-				04533DB61CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.h */,
-				04533DB71CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m */,
-				04533DB81CBCCFE90083D372 /* JElasticPullToRefreshView.h */,
-				04533DB91CBCCFE90083D372 /* JElasticPullToRefreshView.m */,
-				04533DBA1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.h */,
-				04533DBB1CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m */,
-				04533DBC1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.h */,
-				04533DBD1CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m */,
+				84A526AA1F4D2AB0001D8EAE /* JElasticPullToRefreshConstants.h */,
+				84A526AB1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.h */,
+				84A526AC1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.m */,
+				84A526AD1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.h */,
+				84A526AE1F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.m */,
+				84A526AF1F4D2AB0001D8EAE /* JElasticPullToRefreshView.h */,
+				84A526B01F4D2AB0001D8EAE /* JElasticPullToRefreshView.m */,
+				84A526B11F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.h */,
+				84A526B21F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.m */,
+				84A526B31F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.h */,
+				84A526B41F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.m */,
 			);
-			name = JElasticPullToRefresh;
-			path = ../../JElasticPullToRefresh;
+			path = JElasticPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,14 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04533DBF1CBCCFE90083D372 /* JElasticPullToRefreshLoadingViewCircle.m in Sources */,
-				04533DBE1CBCCFE90083D372 /* JElasticPullToRefreshLoadingView.m in Sources */,
+				84A526B61F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingViewCircle.m in Sources */,
+				84A526B51F4D2AB0001D8EAE /* JElasticPullToRefreshLoadingView.m in Sources */,
 				04533D811CBCCF2A0083D372 /* AppDelegate.m in Sources */,
-				04533DC21CBCCFE90083D372 /* UIView+JElasticPullToRefresh.m in Sources */,
+				84A526B91F4D2AB0001D8EAE /* UIView+JElasticPullToRefresh.m in Sources */,
 				04533DB11CBCCF5A0083D372 /* TableViewController.m in Sources */,
 				04533D7E1CBCCF2A0083D372 /* main.m in Sources */,
-				04533DC11CBCCFE90083D372 /* UIScrollView+JElasticPullToRefresh.m in Sources */,
-				04533DC01CBCCFE90083D372 /* JElasticPullToRefreshView.m in Sources */,
+				84A526B81F4D2AB0001D8EAE /* UIScrollView+JElasticPullToRefresh.m in Sources */,
+				84A526B71F4D2AB0001D8EAE /* JElasticPullToRefreshView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
