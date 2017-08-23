@@ -22,7 +22,7 @@
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     
     JElasticPullToRefreshLoadingViewCircle *loadingViewCircle = [[JElasticPullToRefreshLoadingViewCircle alloc] init];
-    loadingViewCircle.tintColor = [UIColor whiteColor];
+    loadingViewCircle.tintColor = [UIColor greenColor];
     
     __weak __typeof(self)weakSelf = self;
     [self.tableView addJElasticPullToRefreshViewWithActionHandler:^{
