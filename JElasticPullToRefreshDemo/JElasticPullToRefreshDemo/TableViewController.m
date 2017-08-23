@@ -22,6 +22,7 @@
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     
     JElasticPullToRefreshLoadingViewCircle *loadingViewCircle = [[JElasticPullToRefreshLoadingViewCircle alloc] init];
+    // 修改转圈颜色
     loadingViewCircle.tintColor = [UIColor greenColor];
     
     __weak __typeof(self)weakSelf = self;
@@ -51,7 +52,8 @@
     }
     
     cell.textLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row + 100];
-    
+    // 修改 cell 颜色
+    cell.contentView.backgroundColor = [UIColor orangeColor];
     return cell;
 }
 
